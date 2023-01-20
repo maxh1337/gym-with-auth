@@ -1,0 +1,40 @@
+.preFooter {
+  height: 537px;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  padding-left: 20rem;
+  align-items: center;
+  background-color: #131316;
+  > img {
+    position: absolute;
+  }
+  > div {
+    padding-left: 550px;
+    max-width: 492px;
+    > h1 {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 800;
+      font-size: 60px;
+      line-height: 62px;
+      /* or 103% */
+
+      color: #ffffff;
+    }
+    > p {
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 300;
+      font-size: 18px;
+      line-height: 32px;
+      margin-bottom: 0;
+
+      color: #ffffff;
+    }
+  }
+}
+
+.green {
+  color: #4ae290;
+}

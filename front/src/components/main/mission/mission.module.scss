@@ -1,0 +1,49 @@
+.mission {
+  width: 48rem;
+  margin: 140px auto 100px auto;
+
+  > h1 {
+    width: 314px;
+    height: 50px;
+    left: calc(50% - 314px / 2 - 157px);
+    top: 35px;
+
+    /* H2 --desktop */
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 50px;
+    /* identical to box height, or 100% */
+
+    text-align: center;
+
+    color: #131316;
+  }
+
+  > p {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+
+    color: #595962;
+  }
+  > .join {
+    display: flex;
+
+    > p {
+      margin-right: 10px;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 800;
+      font-size: 14px;
+      line-height: 18px;
+    }
+    > img {
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,26 @@
+.footer {
+  background: #131316;
+  > div {
+    height: 200px;
+    margin: 0 auto;
+    max-width: 1440px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    > img {
+      margin-bottom: 35px;
+      width: 85px;
+      height: 23px;
+    }
+    > p {
+      margin-bottom: 35px;
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 18px;
+      color: #9797a2;
+    }
+  }
+}
